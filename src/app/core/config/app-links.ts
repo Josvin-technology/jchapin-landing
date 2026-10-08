@@ -29,14 +29,14 @@ export const APP = {
 
   apk: {
     /** `false` mientras no exista el archivo en `public/downloads/`. */
-    available: false,
+    available: true,
     version: '1.0.0',
-    url: '/downloads/jchapin-beta-v1.0.0.apk',
+    url: '/downloads/jchapin-release-v1.0.0.apk',
     /** Llenar al generar el APK. */
     sizeMb: 0,
     /** `shasum -a 256 jchapin-beta-v1.0.0.apk` */
     sha256: '',
-    releasedAt: '2026-10-04',
+    releasedAt: '2026-10-07',
   },
 
   requirements: {
